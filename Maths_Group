@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to the Maths Website</title>
+    <style>
+        /* This is CSS, which adds styling to your HTML */
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+            background-color: #f0f8ff; /* A light, friendly blue */
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 2.5rem 3rem;
+            border-radius: 15px;
+            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+            max-width: 600px;
+        }
+
+        h1 {
+            color: #005a9c; /* A strong blue for the title */
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            font-size: 1.2rem;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .topics {
+            margin-top: 2rem;
+        }
+
+        .topics ul {
+            list-style-type: none; /* Removes bullet points */
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+
+        .topics li {
+            background-color: #e6f7ff;
+            color: #005a9c;
+            padding: 10px 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Welcome to the Maths Website! 🧮</h1>
+        <p>
+            Your journey into the exciting world of numbers, patterns, and logic
+            starts right here.
+        </p>
+        <div class="topics">
+            <h2>Explore Topics Like:</h2>
+            <ul>
+                <li>Algebra</li>
+                <li>Geometry</li>
+                <li>Calculus</li>
+            </ul>
+        </div>
+    </div>
+
+</body>
+</html>
